@@ -15,4 +15,5 @@ This was tested on a 15 Mb/s down with about 65 ms ping.
  
 # Execution Command
 `npm install` (to install nightmare.js)
+
 `node supreme.js` (to run the script)

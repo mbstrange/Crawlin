@@ -27,12 +27,12 @@ nightmare
   //.click('[href="/shop/all/accessories"]')
   .wait('[alt= ' + item_sku + ']')
   .click('[alt= ' + item_sku + ']')
-  .wait('[itemprop="price"]')
-  .select('[id="size"]', "37119")
-  .evaluate(function () {
-    price = document.querySelector('[itemprop="price"]').innerText
-    return price
-  })
+ // .wait('[itemprop="price"]')
+  .select('[id="size"]', size)
+ // .evaluate(function () {
+//    price = document.querySelector('[itemprop="price"]').innerText
+ //   return price
+//  })
   .click('[type="submit"]')
   .wait(300)
   .goto('https://www.supremenewyork.com/checkout')

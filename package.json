@@ -1,0 +1,14 @@
+{
+  "name": "Supreme_Nightmare",
+  "version": "1.0.0",
+  "description": "A better way to browse the web supremely",
+  "main": "supreme.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max Strange",
+  "license": "ISC",
+  "dependencies": {
+    "nightmare": "^2.9.0"
+  }
+}
